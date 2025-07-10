@@ -1,0 +1,218 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* -------------------------------------------- HEADER ------------------------------------------------ */
+.container {
+    display: flex;
+    height: 15rem;
+    justify-content: flex-end;
+}
+
+.links {
+    display: block;
+    align-content: center;
+    color: rgb(110, 160, 255);
+    font-family: Arial, sans-serif;
+    word-spacing: 2rem;
+    padding: 2rem 6rem 4rem 6rem;
+}
+
+#link {
+    display: inline;
+    align-content: center;
+    text-decoration: underline;
+}
+
+#link:hover {
+    color: white;
+}
+
+/* ------------------------------------------- HOME PAGE ----------------------------------------------- */
+.home {
+    color: aliceblue;
+    display: flex;
+    height: 30rem;
+    width: 100%;
+    flex-direction: column;
+}
+
+.text {
+    justify-content: center;
+    align-content: flex-start;
+    text-align: center;
+    margin: 1rem 1rem 1rem 1rem;
+    height: 18rem;
+}
+
+.hlo {
+    font-size: 3rem;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.intro {
+    display: block;
+    font-size: 1.2rem;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.button {
+    justify-content: space-between;
+    align-content: flex-end;
+    text-align: center;
+}
+
+.b {
+    color: azure;
+    padding: 0.6rem 1.1rem 0.6rem 1.1rem;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    font-size: 1rem;
+    margin-right: 1.5rem;
+}
+
+.mail {
+    background-color: rgb(0, 119, 250);
+}
+
+.li {
+    background-color: rgba(227, 231, 247, 0.264);
+}
+
+.gh {
+    border: 1px solid white;
+}
+
+.b:hover {
+    opacity: 0.8;
+}
+
+/* ----------------------------------------- EDUCATION ------------------------------------------------ */
+.domain {
+    color: aliceblue;
+    height: 43rem;
+}
+.name {
+    text-align: center;
+    color: rgb(0, 139, 139);
+    font-size: 3rem;
+    margin: 2rem 1rem 1.5rem 1rem;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+}
+
+.study{
+    display: grid;
+    grid-template-columns: repeat(2, 100fr);
+    grid-template-rows: repeat(2, 230px);
+}
+
+.btn {
+    color: white;
+    text-align: left;
+    margin: 0rem 0rem 1.5rem 2rem;
+    padding: 1.5rem 1rem 1rem 1rem;
+    border-left: 4px solid darkcyan;
+    line-height: 1.5rem;
+}
+
+.year {
+    color: rgba(12, 146, 146, 0.771);
+    font-size: 1.1rem;
+}
+
+.course {
+    color: aliceblue;
+    font-size: 1.7rem;
+}
+
+.ins {
+    color: white;
+    font-size: 1.1rem;
+}
+#img{
+    grid-column: 2/3;
+    grid-row: -3/-1;
+    height: 18rem;
+    width: auto;
+    padding-top: 4rem;
+}
+
+/* ------------------------------------------ SKILLS ------------------------------------------------ */
+.subdom{
+    margin-left: 2rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border-left: 4px solid darkcyan;
+}
+.hding{
+    font-size: 1.7rem;
+    color: darkcyan;
+    padding: 0.5rem 0.5rem 0.5rem 0rem;
+}
+.pl{
+    display: grid;
+    grid-template-columns: repeat(4,96fr);
+    grid-template-rows: repeat(1, 100px);
+}
+.wd{
+    display: grid;
+    grid-template-columns: repeat(3,96fr);
+    grid-template-rows: repeat(1, 100px);
+}
+.tool{
+    display: grid;
+    grid-template-columns: repeat(2,96fr);
+    grid-template-rows: repeat(1, 97px);
+}
+.sn{    
+    display: flex;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* ----------------------------------------- EXPERIENCE ------------------------------------------------ */
+
+
+/* ----------------------------------------- PROJECTS ------------------------------------------------ */
+.style{
+    margin-bottom: 2rem;
+    margin: 0rem 0rem 3rem 2rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border-left: 4px solid darkcyan;
+}
+.gm{
+    display: grid;
+    grid-template-columns: repeat(2, 96fr);
+    grid-template-rows: repeat(3, 57px);
+    grid-row: -4/-1;
+}
+h2{
+    font-size: 2rem;
+    color: darkcyan;
+    padding-bottom: 1rem;
+}
+p{
+    padding-bottom: 1rem;
+}
+#tech{
+    padding-top: 1rem;
+    grid-row: 3/4;
+    font-size: large;
+}
+.img{
+    height: 190px;
+    width: 250px;
+    margin-left: 5rem;
+    border-radius: 0.2rem;
+}
+a{
+    color: aquamarine;
+    font-size: 1.3rem;
+}
